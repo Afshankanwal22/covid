@@ -26,6 +26,15 @@
     padding-left: 20px;
     padding-right: 20px;
 }
+.button2{
+    border: 1px solid  rgba(111, 66, 193, 1);
+    background-color:  rgba(111, 66, 193, 1);
+    border-radius: 20px;
+    color: white;
+    font-size: small;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 .hero-section{
     background-color: #F0ECF9;
     border-radius: 0px 0px 240px 0px; 
@@ -68,52 +77,83 @@
     padding-bottom: 40px;
 }
 
-@media screen and (min-width:480px) and (max-width:600px) {
+@media screen and (min-width:300px) and (max-width:600px) {
     .navii{
-        width: 830px !important;
+        
+        width: 990px!important;
     }
     .hero-section{
-        width: 830px !important;
+       
+        width: 990px !important;
+        padding-left: 50px !important;
     }
-        
     .section-2{
-        padding-left: 180px !important;
+        width: 990px !important;
+
     }
-    .section{
-        padding-left: 200px !important;
+    .section-3{
+        width: 990px !important;
     }
-    
-    .text1{
-        padding-top: 30px !important;   
+    .section-3s{
+        width: 990px !important;
     }
     .text{
-        padding-top: 30px !important;
-    
+        padding-left: 180px !important;
     }
-
+    .text1{
+        padding-left: 230px !important;
+    }
+    .button1{
+        margin-left: 180px !important;
+    }
+    .button2{
+        margin-left: 230px !important;
+    }
     .section-4{
-        padding-left: 60px !important;
-        
+        width: 990px !important;
+        padding-left: 80px !important;
     }
+    
     .section-5{
-        display: block !important;  
+        width: 990px !important; 
     }
     .box1{
         margin-top: 50px !important;   
     }
     
     .box{
-        display: block !important;
-    }
-    .section-7{
-        width: 830px !important;
-    }
-    .footer{
-        width: 830px !important;
+        width: auto !important;
+        height: 250px !important;
+        
         
     }
+    .section-7{
+        
+        width: 990px  !important;
+    }
+    .footer{
+       
+        width: 990px  !important;
+        
+    }
+    .section-6s{
+        width: 990px !important;
+    }
     .section-6{
-        display: block !important;
+        width: 990px !important;
+
+    }
+    .section-8{
+        width: 990px !important;
+    }
+    .section-8s{
+        width: 990px !important;
+    }
+    .follow{
+           padding-left: 280px !important;
+    }
+    .follows{
+        padding-left: 310px !important;
 
     }
     
